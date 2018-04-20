@@ -18,7 +18,10 @@ public abstract class Mage extends Character{
 
     public Creature getCreature(){
         return this.creature;
+    }
 
+    public void setCreature(Creature creature) {
+        this.creature = creature;
     }
 
     public Spell getSpell() {
@@ -29,7 +32,5 @@ public abstract class Mage extends Character{
         this.spell = spell;
     }
 
-    public void setCreature(Creature creature) {
-        this.creature = creature;
-    }
+
 }
