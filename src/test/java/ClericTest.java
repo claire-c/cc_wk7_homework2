@@ -43,11 +43,21 @@ public class ClericTest {
         assertEquals(HealingTool.AGOODSNOOZE, cleric.getHealingTool());
     }
 
+    @Test
+    public void canGetHealingToolValue(){
+        assertEquals(50, cleric.getHealingTool().getHealingValue());
+    }
+
+    @Test
+    public void canGetHealingToolChanceValue(){
+        assertEquals(3, cleric.getHealingTool().getChanceValue());
+
+    }
+
 
 
 //    @Test
 //    public void canGetHealingTool(){
-//        cleric.setHealingTool(HealingTool.AGOODSNOOZE);
 //        HealingTool tool = cleric.getHealingTool();
 //        assertEquals(5, tool.getChanceValue());
 //    }
