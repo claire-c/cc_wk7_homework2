@@ -1,8 +1,9 @@
 package Characters.Heroes;
 
+import java.util.ArrayList;
 import java.util.Random;
 
-public class HealingTool {
+public enum HealingTool {
 
     POTION(20, 8),
     BITTERROOT(10, 10),
@@ -14,6 +15,7 @@ public class HealingTool {
     private static final HealingTool[] VALUES = values();
     private static final int SIZE = VALUES.length;
     private static final Random RANDOM = new Random();
+
 
     HealingTool(int healingValue, int chanceValue) {
         this.healingValue = healingValue;
@@ -31,6 +33,9 @@ public class HealingTool {
     public static HealingTool getRandomHealingTool()  {
         return VALUES[RANDOM.nextInt(SIZE)];
     }
+
+
+
 
 
 
