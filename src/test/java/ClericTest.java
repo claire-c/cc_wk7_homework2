@@ -32,12 +32,26 @@ public class ClericTest {
         assertEquals(150, cleric.getHp());
     }
 
+    @Test
+    public void canSetHealingTool(){
+        cleric.setHealingTool(HealingTool.BITTERROOT);
+        assertEquals(HealingTool.BITTERROOT, cleric.getHealingTool());
+    }
+
+    @Test
+    public void canGetHealingTool(){
+        assertEquals(HealingTool.AGOODSNOOZE, cleric.getHealingTool());
+    }
+
+
+
 //    @Test
 //    public void canGetHealingTool(){
+//        cleric.setHealingTool(HealingTool.AGOODSNOOZE);
 //        HealingTool tool = cleric.getHealingTool();
 //        assertEquals(5, tool.getChanceValue());
 //    }
-// So this test is failing but it's defo bringing back a HealingTool object.
+// So this test is failing but it's defo bringing back a random HealingTool object. Each test has returned a different int - not the same random one, argh.
 
 
 
