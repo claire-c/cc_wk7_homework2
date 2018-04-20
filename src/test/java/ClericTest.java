@@ -9,10 +9,12 @@ public class ClericTest {
 
 
     private Cleric cleric;
+    private Cleric cleric2;
 
     @Before
     public void setup() {
         cleric = new Cleric("Tony");
+        cleric2 = new Cleric("random");
 
     }
 
@@ -43,6 +45,7 @@ public class ClericTest {
         assertEquals(HealingTool.AGOODSNOOZE, cleric.getHealingTool());
     }
 
+
     @Test
     public void canGetHealingToolValue(){
         assertEquals(50, cleric.getHealingTool().getHealingValue());
@@ -52,6 +55,11 @@ public class ClericTest {
     public void canGetHealingToolChanceValue(){
         assertEquals(3, cleric.getHealingTool().getChanceValue());
 
+    }
+
+    @Test
+    public void canRollDice(){
+        assertEquals(2, cleric.diceRoll());
     }
 
 

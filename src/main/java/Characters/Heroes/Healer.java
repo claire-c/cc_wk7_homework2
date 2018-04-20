@@ -10,10 +10,11 @@ public abstract class Healer extends Character {
 
     public Healer(String name){
         super(name);
+//        randomHealingTool();
 //        HealingTool tool = HealingTool.getRandomHealingTool();
 //        this.healingTool = tool;
 //        So this is bad code - I dont know why but the tests are failing randomly. I would have thought that the randomhealingtool would run once and store the one healing tool but it seems to be running the method every time so the cleric has a constantly evolving tool...
-
+//
         this.healingTool = HealingTool.AGOODSNOOZE;
     }
 
@@ -24,4 +25,18 @@ public abstract class Healer extends Character {
     public void setHealingTool(HealingTool healingTool) {
         this.healingTool = healingTool;
     }
+
+
+//    public void randomHealingTool() {
+//        int result = getRandomNumber(4);
+//        if (result == 0) {
+//            this.healingTool = HealingTool.HERBS;
+//        } else if (result == 1) {
+//            this.healingTool = HealingTool.BITTERROOT;
+//        }else if (result == 2) {
+//            this.healingTool = HealingTool.AGOODSNOOZE;
+//        }else if (result == 3) {
+//            this.healingTool = HealingTool.HERBS;
+//        }
+//    }
 }
