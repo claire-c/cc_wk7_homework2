@@ -9,7 +9,7 @@ public enum Defence {
     public final double defenceValue;
 
 
-    HealingTool(double defenceValue) {
+    Defence(double defenceValue) {
         this.defenceValue = defenceValue
     }
 

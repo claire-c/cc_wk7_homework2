@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e715169-0bcd-4601-a19c-568753e04458" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Creatures/Creature.java" afterPath="$PROJECT_DIR$/src/main/java/Characters/Creatures/Creature.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Heroes/Defence.java" afterPath="$PROJECT_DIR$/src/main/java/Characters/Heroes/Defence.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Heroes/Mage.java" afterPath="$PROJECT_DIR$/src/main/java/Characters/Heroes/Mage.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -74,10 +72,10 @@
             <state relative-caret-position="300">
               <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1152,10 +1150,10 @@
         <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
           </folding>
         </state>
       </provider>
