@@ -1,4 +1,4 @@
 package Characters.Creatures;
 
-public class Creature {
+public enum Creature {
 }

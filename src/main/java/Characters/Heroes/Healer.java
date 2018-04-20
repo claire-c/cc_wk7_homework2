@@ -11,9 +11,8 @@ public abstract class Healer extends Character {
     public Healer(String name){
         super(name);
 //        randomHealingTool();
-//        HealingTool tool = HealingTool.getRandomHealingTool();
-//        this.healingTool = tool;
-//        So this is bad code - I dont know why but the tests are failing randomly. I would have thought that the randomhealingtool would run once and store the one healing tool but it seems to be running the method every time so the cleric has a constantly evolving tool...
+//        this.healingTool = HealingTool.getRandomHealingTool();
+//        So this is bad code - I dont know why but the tests are failing randomly. I would have thought that the randomhealingtool would run once and store the one healing tool but it seems to be running the method every time I do anything with the cleric so they have a constantly evolving tool...
 //
         this.healingTool = HealingTool.AGOODSNOOZE;
     }

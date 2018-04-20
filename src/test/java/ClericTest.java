@@ -36,8 +36,8 @@ public class ClericTest {
 
     @Test
     public void canSetHealingTool(){
-        cleric.setHealingTool(HealingTool.BITTERROOT);
-        assertEquals(HealingTool.BITTERROOT, cleric.getHealingTool());
+        cleric.setHealingTool(HealingTool.BITTEROOT);
+        assertEquals(HealingTool.BITTEROOT, cleric.getHealingTool());
     }
 
     @Test
