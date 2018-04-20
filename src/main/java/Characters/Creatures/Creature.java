@@ -4,10 +4,10 @@ import java.util.Random;
 
 public enum Creature {
 
-    TROLL("Trolly", 100, 30, 8, 90, 12 ),
-    DRAGON("Dragony", 150, 40, 6, 95, 12),
-    GIANTSPIDER("Spidery", 100, 25, 9, 80, 10),
-    EX("The Dreaded Ex", 100, 20, 4, 60, 8);
+    TROLL("Trolly", 100, 30, 8, 90, 1 ),
+    DRAGON("Dragony", 150, 40, 6, 95, 1),
+    GIANTSPIDER("Spidery", 100, 25, 9, 80, 2),
+    EX("The Dreaded Ex", 100, 20, 4, 60, 4);
 
     public final String name;
     public final int hp;

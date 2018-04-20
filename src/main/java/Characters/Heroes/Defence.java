@@ -10,7 +10,7 @@ public enum Defence {
 
 
     Defence(double defenceValue) {
-        this.defenceValue = defenceValue
+        this.defenceValue = defenceValue;
     }
 
     public double getDefenceValue() {

@@ -14,6 +14,7 @@ public abstract class Mage extends Character{
         super(name);
         this.spell = Spell.getRandomSpell();
         this.creature = Creature.getRandomCreature();
+        //Massive problem still with this random element for newing up objects. Need to fix.
     }
 
     public Creature getCreature(){
