@@ -1,6 +1,5 @@
 package Characters.Heroes;
 
-import java.util.ArrayList;
 import java.util.Random;
 
 public enum HealingTool {
